@@ -1,0 +1,25 @@
+@keyframes rainbow {
+    0%, 100% {
+        color: red;
+    }
+    /* Start and end with red */
+    16.7% {
+        color: orange;
+    }
+
+    33.3% {
+        color: goldenrod;
+    }
+
+    50% {
+        color: green;
+    }
+
+    66.7% {
+        color: blue;
+    }
+
+    83.3% {
+        color: indigo;
+    }
+}

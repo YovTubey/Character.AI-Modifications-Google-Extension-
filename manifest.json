@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Character.AI Modifiers",
+  "description": "Makes your experience on Character.AI better!",
+  "version": "1.0",
+  "icons": {
+    "128": "/logo128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Character.AI Modifiers"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://beta.character.ai/*",
+        "https://plus.character.ai/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "rainbow.css"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
